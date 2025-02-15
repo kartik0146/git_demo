@@ -3,7 +3,17 @@ package com.jsp.project.user;
 public class model {
     private int id;
     private String username;
+    private String Email;
+
     private int age;
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
 
     public int getAge() {
         return age;
